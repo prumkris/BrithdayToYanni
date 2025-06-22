@@ -86,7 +86,7 @@ body {
 
 .Np {
     color: rgb(221, 189, 6);
-    background-image: url("./images/Trio.jpg");
+    background-image: url("./Trio.jpg");
     background-size: cover;
     background-position: center;
     padding: 80px 80px 80px 20px;
