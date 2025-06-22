@@ -1,0 +1,281 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 172, 230);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: grid;
+    align-items: center;
+}
+
+.box {
+    height: 70px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    position: fixed;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(231, 187, 112, 0.805);
+    top: 0;
+}
+
+.navbar img {
+    height: 50px;
+    border-radius: 100%;
+    border: 1px brown solid;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+.navbar .Ghead a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    font-size: x-large;
+    text-decoration-style: double;
+    text-decoration-line: underline;
+}
+
+.Ghead {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.navbar p {
+    color: rgb(255, 232, 155);
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-left: 35%; */
+    text-decoration: underline;
+}
+
+.navbar:last-child {
+    text-align: end;
+    align-content: flex-end;
+    font-size: larger;
+}
+
+
+/* neck */
+
+.Np {
+    color: rgb(221, 189, 6);
+    background-image: url("./images/Trio.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 80px 80px 20px;
+    width: 100%;
+    text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+}
+
+.Np {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.neck {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.test {
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+}
+
+.team {
+    height: 100%;
+    padding-top: 40px;
+    text-decoration: underline;
+    color: rgb(250, 210, 149);
+    background-color: #bda07b;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#team {
+    height: 120px;
+    text-align: center;
+    background-color: rgb(203, 145, 103);
+}
+
+.cards img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: solid 3px rgba(255, 255, 255, 0.574);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards {
+    display: grid;
+    padding: 10px;
+    background-color: rgb(248, 218, 111);
+    width: 170px;
+    gap: 5px;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.name.usagi {
+    font-weight: 600;
+    background-color: #f7b259;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+    margin: auto;
+}
+
+.wish {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: underline;
+    border-radius: 10px;
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    overflow: scroll;
+}
+
+.name.hachi {
+    font-weight: 600;
+    background-color: #618dfb;
+    border-radius: 10px;
+    text-align: center;
+    width: 90px;
+    padding: 5px;
+    margin: auto;
+}
+
+.cards.hachi {
+    padding: 10px;
+    background-color: rgb(111, 177, 248);
+    width: 170px;
+    gap: 5px;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.cards.chiika {
+    padding: 10px;
+    background-color: rgb(250, 160, 206);
+    width: 170px;
+    gap: 5px;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.name.chiika {
+    font-weight: 600;
+    background-color: #ed7ed9;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+    margin: auto;
+}
+
+.group_cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+
+.cards.chiika {
+    grid-column: 1/3;
+}
+
+@keyframes rainbow {
+    0% {
+        color: rgb(248, 218, 111);
+        transform: translateY(0px);
+    }
+    33% {
+        color: rgb(111, 177, 248);
+        transform: translateY(10px);
+    }
+    66% {
+        color: rgb(250, 160, 206);
+        transform: translateY(50px);
+    }
+    100% {
+        color: rgb(248, 218, 111);
+        transform: translateY(00px);
+    }
+}
+
+
+/* (B) ATTACH RAINBOW EFFECT */
+
+.rainbow {
+    animation: 3s infinite rainbow;
+    height: 100px;
+    margin: auto;
+}
+
+.me_wish {
+    text-align: center;
+    color: #f7b259;
+    background-color: rgb(158, 87, 63);
+    padding: 20px;
+}
+
+.msgtoyan {
+    background-color: rgb(253, 243, 209);
+    text-align: left;
+    padding: 30px;
+    margin: 10px;
+    border: solid 1px brown;
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.msgP {
+    text-align: left;
+}
+
+.s {
+    padding: 10%;
+    color: darkred;
+}
+
+.bye {
+    font-size: xx-large;
+    text-align: center;
+    color: gold;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    background-color: #bda07b;
+    padding-top: 40px;
+}
