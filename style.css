@@ -12,6 +12,7 @@ body {
     font-style: normal;
     display: grid;
     align-items: center;
+    zoom: 100%;
 }
 
 .box {
